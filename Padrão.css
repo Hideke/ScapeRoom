@@ -53,19 +53,17 @@ body {
     width: 100vw;
 }
 
-
-
 input[type="text"] {
     background-color: #151515;
     border: none;
     border-bottom: 1px solid blueviolet;
     border-radius: 4px;
-    height: 25px;
-    width: 500px;
-    margin-top: 150px;
+    height: 5vh;
+    width: 35vw;
+    margin-top: 25vh;
     color: blueviolet;
     outline: 0;
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 input[type="submit"] {
@@ -77,4 +75,9 @@ input[type="submit"] {
 
 .hide {
     display: none;
+}
+
+p {
+  display: flex;
+  justify-content: center;
 }

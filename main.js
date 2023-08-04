@@ -23,17 +23,40 @@ btn.addEventListener("click", function(e){
 
     var dois = document.getElementById("segundo");
 
+    var tres = document.getElementById("terceiro");
+
+    var quatro = document.getElementById("quarto");
+
     if (resultado == "dois"){
         
         if (um.style.display != "none") {
-            
+            texto.value = '';
             um.style.display = "none";
             dois.style.display = "block";
-            texto.value = '';
-
-        }
+        } 
     }     
     
+    if (resultado == "quinta feira" || resultado == "quinta-feira"){
+        
+        if (dois.style.display != "none") {
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "block";
+        } 
+    }     
+
+    if (resultado == "octodecágono" || resultado == "octodecagono"){
+        
+        if (tres.style.display != "none") {
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "block";
+        } 
+    } 
+
 })
 
 
