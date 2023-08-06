@@ -82,6 +82,14 @@ p {
     justify-content: center;
 }
 
+.img-grande {
+  width: 25vw;
+  height: auto;
+}
+.fundo {
+  color: #080808;
+}
+
 #error {
     position: absolute;
     border: 1px solid #ECF2E4;

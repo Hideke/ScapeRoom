@@ -30,7 +30,7 @@ btn.addEventListener("click", function(){
     var sete = document.getElementById("sete");
     var oito = document.getElementById("oito");
     var nove = document.getElementById("nove");
-    var dez = document.getElementById("nove");
+    var dez = document.getElementById("dez");
 
     switch (resultado) {
         default:
@@ -43,30 +43,100 @@ btn.addEventListener("click", function(){
                 erro.style.display = "none";
             }, 2000);
             break;
-        case "dois":
+        /* Resposta Fase 1 */
+        case "nove":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "block";
             break;
-        case "?":
-            texto.value = '';
-            break;
-        case "octodecagono":
-        case "octodecágono":
+        /* Resposta Fase 2 */
+        case "arquimedes":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "none";
             tres.style.display = "block";
             break;
+        /* Resposta Fase 3 */
+        case "octadecagono":
+        case "octadecágono":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "block";
+            break;
+        /* Resposta Fase 4 */
+        case "ampulheta":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "none";
+            cinco.style.display = "block";
+            break;
+        /* Resposta Fase 5 */
         case "quinta feira":
         case "quinta-feira":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "none";
             tres.style.display = "none";
-            quatro.style.display = "block";
-            break; 
-        
+            quatro.style.display = "none";
+            cinco.style.display = "none";
+            seis.style.display = "block";
+            break;
+        /* Resposta Fase 6 */
+        case "trinta e sete":
+        case "37":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "none";
+            cinco.style.display = "none";
+            seis.style.display = "none";
+            sete.style.display = "block";
+            break;
+        /* Resposta Fase 7 */ 
+        case "van gogh":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "none";
+            cinco.style.display = "none";
+            seis.style.display = "none";
+            sete.style.display = "none";
+            oito.style.display = "block";
+            break;
+        /* Resposta Fase 8 */
+        case "hidrocarbonetos":
+        case "hidrocarboneto":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "none";
+            cinco.style.display = "none";
+            seis.style.display = "none";
+            sete.style.display = "none";
+            oito.style.display = "none";
+            nove.style.display = "block";
+            break;
+        /* Resposta Fase 9 */
+        case "senador amaral":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "none";
+            cinco.style.display = "none";
+            seis.style.display = "none";
+            sete.style.display = "none";
+            oito.style.display = "none";
+            nove.style.display = "none";
+            dez.style.display = "block";
+            break;
     }
 
 })
