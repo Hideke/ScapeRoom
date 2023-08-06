@@ -9,53 +9,65 @@ document.addEventListener("keypress", function(e) {
     }
 })
 
-btn.addEventListener("click", function(e){
+btn.addEventListener("click", function(){
 
-    e.preventDefault();
-
-    const texto = document.querySelector("#texto")
+    const audio = document.querySelector("#audio");
+    
+    const texto = document.querySelector("#texto");
 
     const value = texto.value;
 
     let resultado = value.toLowerCase();
-    
-    var um = document.getElementById("primeiro");
 
-    var dois = document.getElementById("segundo");
+    var erro = document.getElementById("error");
 
-    var tres = document.getElementById("terceiro");
+    var um = document.getElementById("um");
+    var dois = document.getElementById("dois");
+    var tres = document.getElementById("tres");
+    var quatro = document.getElementById("quatro");
+    var cinco = document.getElementById("cinco");
+    var seis = document.getElementById("seis");
+    var sete = document.getElementById("sete");
+    var oito = document.getElementById("oito");
+    var nove = document.getElementById("nove");
+    var dez = document.getElementById("nove");
 
-    var quatro = document.getElementById("quarto");
-
-    if (resultado == "dois"){
-        
-        if (um.style.display != "none") {
+    switch (resultado) {
+        default:
+            audio.play();
+            setTimeout(() => {
+                texto.value = '';
+                erro.style.display = "block";
+            }, 100);
+            setTimeout(() => {
+                erro.style.display = "none";
+            }, 2000);
+            break;
+        case "dois":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "block";
-        } 
-    }     
-    
-    if (resultado == "quinta feira" || resultado == "quinta-feira"){
-        
-        if (dois.style.display != "none") {
+            break;
+        case "?":
+            texto.value = '';
+            break;
+        case "octodecagono":
+        case "octodecágono":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "none";
             tres.style.display = "block";
-        } 
-    }     
-
-    if (resultado == "octodecágono" || resultado == "octodecagono"){
-        
-        if (tres.style.display != "none") {
+            break;
+        case "quinta feira":
+        case "quinta-feira":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "none";
             tres.style.display = "none";
             quatro.style.display = "block";
-        } 
-    } 
+            break; 
+        
+    }
 
 })
 
