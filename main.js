@@ -227,6 +227,7 @@ btn.addEventListener("click", function(){
             onze.style.display = "none";
             doze.style.display = "none";
             treze.style.display = "none";
+            quatorze.style.display = "block";
             break;
         /* Resposta Fase 14 */        
         case "sumerios":
@@ -245,6 +246,7 @@ btn.addEventListener("click", function(){
             onze.style.display = "none";
             doze.style.display = "none";
             treze.style.display = "none";
+            quatorze.style.display = "none";
             break;
     }
 
