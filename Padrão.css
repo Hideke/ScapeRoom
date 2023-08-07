@@ -99,7 +99,16 @@ p {
   width: 20vw;
 }
 
-#error, #bait-1, #bait-2 {
+#bait-1, #bait-2 {
+    position: absolute;
+    border: 1px solid #ECF2E4;
+    padding: 10vh;
+    border-radius: 4px;
+    background-color: #080808;
+    font-size: 115px;
+}
+
+#error {
     position: absolute;
     border: 1px solid #ECF2E4;
     padding: 10vh;

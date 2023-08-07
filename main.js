@@ -53,6 +53,7 @@ btn.addEventListener("click", function(){
             break;
         /* Resposta Fase 1 */
         case "nove":
+        case "nove":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "block";
