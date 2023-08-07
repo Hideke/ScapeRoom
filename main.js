@@ -37,7 +37,9 @@ btn.addEventListener("click", function(){
     var onze = document.getElementById("onze");
     var doze = document.getElementById("doze");
     var treze = document.getElementById("treze");
-treze
+    var quatorze = document.getElementById("quatorze");
+
+
     switch (resultado) {
         default:
             audio.play();
@@ -210,6 +212,24 @@ treze
         case "nas tramas das tabuas antigas,":
         case "nastramasdastábuasantigas,":
         case "nastramasdastabuasantigas,":
+            texto.value = '';
+            um.style.display = "none";
+            dois.style.display = "none";
+            tres.style.display = "none";
+            quatro.style.display = "none";
+            cinco.style.display = "none";
+            seis.style.display = "none";
+            sete.style.display = "none";
+            oito.style.display = "none";
+            nove.style.display = "none";
+            dez.style.display = "none";
+            onze.style.display = "none";
+            doze.style.display = "none";
+            treze.style.display = "none";
+            break;
+        /* Resposta Fase 14 */        
+        case "sumerios":
+        case "sumérios":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "none";
