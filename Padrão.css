@@ -80,6 +80,7 @@ input[type="submit"] {
 p {
     display: flex;
     justify-content: center;
+    line-height: 3vh;
 }
 
 .img-grande {
@@ -90,17 +91,25 @@ p {
   color: #080808;
 }
 
-#error {
+.morse {
+  width: 35vw;
+}
+
+.binario {
+  width: 20vw;
+}
+
+#error, #bait-1, #bait-2 {
     position: absolute;
     border: 1px solid #ECF2E4;
     padding: 10vh;
     border-radius: 4px;
     background-color: #080808;
+    font-size: 150px;
 }
 
 .glitch {
   position: relative;
-  font-size: 150px;
   margin: 0 auto;
 }
 
