@@ -24,6 +24,8 @@ btn.addEventListener("click", function(){
     var bait1 = document.getElementById("bait-1");
     var bait2 = document.getElementById("bait-2");
 
+    var fim = document.getElementById("fim");
+
     var um = document.getElementById("um");
     var dois = document.getElementById("dois");
     var tres = document.getElementById("tres");
@@ -229,7 +231,9 @@ btn.addEventListener("click", function(){
             treze.style.display = "none";
             quatorze.style.display = "block";
             break;
-        /* Resposta Fase 14 */        
+        /* Resposta Fase 14 */  
+        case "sumerio":
+        case "sumério":      
         case "sumerios":
         case "sumérios":
             texto.value = '';
@@ -247,6 +251,7 @@ btn.addEventListener("click", function(){
             doze.style.display = "none";
             treze.style.display = "none";
             quatorze.style.display = "none";
+            fim.style.display = "block";
             break;
     }
 

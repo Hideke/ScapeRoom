@@ -99,7 +99,7 @@ p {
   width: 20vw;
 }
 
-#bait-1, #bait-2 {
+#bait-1, #bait-2, #fim {
     position: absolute;
     border: 1px solid #ECF2E4;
     padding: 10vh;
