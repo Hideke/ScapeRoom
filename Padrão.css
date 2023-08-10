@@ -6,13 +6,9 @@
 body {
     background-color: #080808;
     color: blueviolet;
-    font-size: 2vh;
+    font-size: 20px;
     min-height: 100vh;
     font-family: 'Clacon';
-}
-
-::placeholder {
-  font-size: 1.5vh;
 }
 
 .alinhamento {
@@ -35,7 +31,6 @@ input[type="text"] {
     color: blueviolet;
     outline: 0;
     padding-left: 8px;
-    font-size: 1.5vh;
 }
 
 input[type="submit"] {
