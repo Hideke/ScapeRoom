@@ -11,39 +11,6 @@ body {
     font-family: 'Clacon';
 }
 
-/* Firefox */
-* {
-    scrollbar-width: thin;
-    scrollbar-color: blueviolet #ECF2E4;
-  }
-  
-  /* Chrome, Edge and Safari */
-  *::-webkit-scrollbar {
-    width: 10px;
-    width: 10px;
-  }
-  
-  *::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: var(--background-color);
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: blueviolet;
-  
-    box-shadow: 0 0 10px 0 var(--glow-color);
-  
-    &:hover {
-      background-color: blueviolet;
-    }
-  
-    &:active {
-  
-      background-color: blueviolet;
-    }
-  }
-
 .alinhamento {
     display: flex;
     flex-direction: column;
