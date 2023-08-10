@@ -68,6 +68,8 @@ btn.addEventListener("click", function(){
             tres.style.display = "block";
             break;
         /* Resposta Fase 3 */
+        case "octodecagono":
+        case "octodecágono":
         case "octadecagono":
         case "octadecágono":
             texto.value = '';
