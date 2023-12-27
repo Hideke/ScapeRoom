@@ -17,7 +17,7 @@ btn.addEventListener("click", function(){
 
     const value = texto.value;
 
-    let resultado = value.toLowerCase();
+    let resultado = removerAcentos(value.toLowerCase());
 
     var erro = document.getElementById("error");
 
@@ -55,7 +55,7 @@ btn.addEventListener("click", function(){
             break;
         /* Resposta Fase 1 */
         case "nove":
-        case "nove":
+        case "9":
             texto.value = '';
             um.style.display = "none";
             dois.style.display = "block";
