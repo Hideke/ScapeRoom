@@ -17,7 +17,7 @@ btn.addEventListener("click", function(){
 
     const value = texto.value;
 
-    let resultado = removerAcentos(value.toLowerCase());
+    let resultado = value.toLowerCase();
 
     var erro = document.getElementById("error");
 
